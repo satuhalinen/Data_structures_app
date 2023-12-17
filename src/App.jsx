@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Palindrome from "./pages/Palindrome";
 import BubbleSort from "./pages/BubbleSort";
+import Stack from "./pages/Stack";
 
 function App() {
   const router = createBrowserRouter([
@@ -22,6 +23,10 @@ function App() {
         {
           path: "/bubblesort",
           element: <BubbleSort />,
+        },
+        {
+          path: "/stack",
+          element: <Stack />,
         },
       ],
     },

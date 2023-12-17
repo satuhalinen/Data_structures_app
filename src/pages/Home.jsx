@@ -10,6 +10,9 @@ const Home = () => {
       <Link to="/bubblesort">
         <button>Bubble sort app</button>
       </Link>
+      <Link to="/stack">
+        <button>Stack data structure app</button>
+      </Link>
     </>
   );
 };
