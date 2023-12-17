@@ -7,6 +7,9 @@ const Home = () => {
       <Link to="/palindrome">
         <button>Palindrome app</button>
       </Link>
+      <Link to="/bubblesort">
+        <button>Bubble sort app</button>
+      </Link>
     </>
   );
 };

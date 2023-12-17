@@ -3,6 +3,7 @@ import Root from "./pages/Root";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Palindrome from "./pages/Palindrome";
+import BubbleSort from "./pages/BubbleSort";
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ function App() {
         {
           path: "/palindrome",
           element: <Palindrome />,
+        },
+        {
+          path: "/bubblesort",
+          element: <BubbleSort />,
         },
       ],
     },

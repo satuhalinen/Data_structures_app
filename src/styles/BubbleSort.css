@@ -1,0 +1,42 @@
+.bubbleSortPicture {
+  background-image: url("/bubbleSortPicture.jpg");
+  width: 100vw;
+  background-size: cover;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+p {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 0 0 20px black;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 50px;
+}
+
+input {
+  padding: 5px;
+  border: 0px;
+  border-radius: 20px;
+  font-size: 25px;
+  width: 500px;
+}
+
+input:focus {
+  outline: none;
+}
