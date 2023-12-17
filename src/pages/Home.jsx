@@ -13,6 +13,9 @@ const Home = () => {
       <Link to="/stack">
         <button>Stack data structure app</button>
       </Link>
+      <Link to="/queue">
+        <button>Queue data structure app</button>
+      </Link>
     </>
   );
 };
