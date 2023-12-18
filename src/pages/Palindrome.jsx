@@ -23,9 +23,9 @@ function Palindrome() {
   return (
     <>
       <div className="palindromePicture">
-        <p>Welcome to use palindrome checker app!</p>
+        <p className="shadowText">Welcome to use palindrome checker app!</p>
         <input type="text" onChange={searchHandler} />
-        <p>{palindromeChecker()}</p>
+        <p className="shadowText">{palindromeChecker()}</p>
       </div>
     </>
   );

@@ -21,6 +21,13 @@ p {
   text-shadow: 0 0 3px black;
 }
 
+.shadowText {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 0 0 20px black;
+}
+
 input {
   padding: 5px;
   border: 0px;

@@ -13,8 +13,7 @@
   margin: 0;
 }
 
-h1,
-p {
+.shadowText {
   color: white;
   display: inline-block;
   text-align: center;

@@ -31,9 +31,9 @@ function BubbleSort() {
   return (
     <>
       <div className="bubbleSortPicture">
-        <h1>Bubble sort app</h1>
+        <h1 className="shadowText">Bubble sort app</h1>
         <input type="text" onChange={sortHandler} />
-        <p>{bubbleSort()}</p>
+        <p className="shadowText">{bubbleSort()}</p>
       </div>
     </>
   );
