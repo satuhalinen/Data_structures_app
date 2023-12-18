@@ -1,5 +1,5 @@
 .palindromePicture {
-  background-image: url("./src/assets/palindromePicture.jpg");
+  background-image: url("/assets/palindromePicture.jpg");
   width: 100vw;
   background-size: cover;
   height: 100vh;
