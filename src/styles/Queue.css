@@ -78,7 +78,7 @@ h1 {
 }
 
 .greenWagon {
-  background-image: url("greentrain.svg");
+  background-image: url("./src/assets/greentrain.svg");
   background-size: cover;
   background-position: center;
   width: 154px;
@@ -91,7 +91,7 @@ h1 {
 }
 
 .orangeWagon {
-  background-image: url("orangetrain.svg");
+  background-image: url("./src/assets/orangetrain.svg");
   background-size: cover;
   background-position: center;
   width: 154px;
@@ -104,7 +104,7 @@ h1 {
 }
 
 .redWagon {
-  background-image: url("redtrain.svg");
+  background-image: url("./src/assets/redtrain.svg");
   background-size: cover;
   background-position: center;
   border-color: black;

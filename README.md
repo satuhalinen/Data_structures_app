@@ -9,16 +9,16 @@ Data structure app is school project done on a course called databases and data 
 ## Visuals
 
 Home page
-![Home page](/public/homePage.png)
+![Home page](./src/assets/homePage.png)
 
 Palindrome app
-![Palindrome app](/public/palindromeApp.png)
+![Palindrome app](./src/assets/palindromeApp.png)
 
 Bubble sort app
-![Bubble sort app](/public/bubbleSortApp.png)
+![Bubble sort app](./src/assets/bubbleSortApp.png)
 
 Stack data structure app
-![Stack app](/public/stackApp.png)
+![Stack app](./src/assets/stackApp.png)
 
 Queue data structure app
-![Queue app](/public/queueApp.png)
+![Queue app](./src/assets/queueApp.png)

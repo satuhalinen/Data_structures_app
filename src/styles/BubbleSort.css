@@ -1,5 +1,5 @@
 .bubbleSortPicture {
-  background-image: url("/bubbleSortPicture.jpg");
+  background-image: url("./src/assets/bubbleSortPicture.jpg");
   width: 100vw;
   background-size: cover;
   height: 100vh;
