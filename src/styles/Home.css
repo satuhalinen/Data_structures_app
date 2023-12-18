@@ -1,0 +1,35 @@
+.homeClass {
+  background-color: #fef2a8;
+  width: 100vw;
+  background-size: cover;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+}
+
+.shadowTextHome {
+  color: black;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 0 0 20px white;
+}
+
+.buttonsHome {
+  background-color: #1c4644;
+  color: white;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+}
+
+.homeButtonClass {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.homeButton {
+  width: 200px;
+}

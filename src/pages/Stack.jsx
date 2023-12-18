@@ -38,7 +38,7 @@ function Stack() {
         <h1>Build a stack!</h1>
         <div className="withBg">
           <div className="rings">{listItems}</div>
-          <div className="buttons">
+          <div className="stackButtons">
             <button className="blueButton" onClick={addBlueBoxHandler}>
               Add a blue ring!
             </button>

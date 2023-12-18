@@ -37,7 +37,7 @@ function Queue() {
       <div className="all">
         <h1>Make a queue!</h1>
         <div className="wagons">{listItems}</div>
-        <div className="buttons">
+        <div className="queueButtons">
           <button className="greenButton" onClick={addGreenBoxHandler}>
             Add a green wagon!
           </button>
