@@ -129,3 +129,8 @@ h1 {
     place-items: center;
   }
 }
+
+.queueBackButton {
+  color: black;
+  border: 1px dashed black;
+}

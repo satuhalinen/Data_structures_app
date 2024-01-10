@@ -1,26 +1,33 @@
 import "../styles/Stack.css";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 function Stack() {
   let color;
   const [stack, setStack] = useState([]);
 
   const addBlueBoxHandler = () => {
     let stackCopy = [...stack];
-    color = "blueRing";
-    stackCopy.push(color);
-    setStack(stackCopy);
+    if ([...stack].length < 12) {
+      color = "blueRing";
+      stackCopy.push(color);
+      setStack(stackCopy);
+    }
   };
   const addYellowBoxHandler = () => {
     let stackCopy = [...stack];
-    color = "yellowRing";
-    stackCopy.push(color);
-    setStack(stackCopy);
+    if ([...stack].length < 12) {
+      color = "yellowRing";
+      stackCopy.push(color);
+      setStack(stackCopy);
+    }
   };
   const addRedBoxHandler = () => {
     let stackCopy = [...stack];
-    color = "redRing";
-    stackCopy.push(color);
-    setStack(stackCopy);
+    if ([...stack].length < 12) {
+      color = "redRing";
+      stackCopy.push(color);
+      setStack(stackCopy);
+    }
   };
 
   const removeBoxHandler = () => {
@@ -35,6 +42,9 @@ function Stack() {
   return (
     <>
       <div className="all">
+        <NavLink className="stackBackButton" to="/">
+          Back to home page
+        </NavLink>
         <h1>Build a stack!</h1>
         <div className="withBg">
           <div className="rings">{listItems}</div>

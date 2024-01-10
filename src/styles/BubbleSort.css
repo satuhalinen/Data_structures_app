@@ -39,3 +39,9 @@ input {
 input:focus {
   outline: none;
 }
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}

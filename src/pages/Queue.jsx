@@ -1,5 +1,6 @@
 import "../styles/Queue.css";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 function Queue() {
   let color;
   const [stack, setStack] = useState([]);
@@ -35,6 +36,9 @@ function Queue() {
   return (
     <>
       <div className="all">
+        <NavLink className="queueBackButton" to="/">
+          Back to home page
+        </NavLink>
         <h1>Make a queue!</h1>
         <div className="wagons">{listItems}</div>
         <div className="queueButtons">

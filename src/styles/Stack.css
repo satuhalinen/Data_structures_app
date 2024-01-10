@@ -137,3 +137,8 @@ h1 {
     place-items: center;
   }
 }
+
+.stackBackButton {
+  color: black;
+  border: 1px dashed black;
+}

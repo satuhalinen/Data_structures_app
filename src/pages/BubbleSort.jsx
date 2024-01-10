@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/BubbleSort.css";
+import { NavLink } from "react-router-dom";
 
 function BubbleSort() {
   const [userInput, setUserInput] = useState("");
@@ -31,6 +32,7 @@ function BubbleSort() {
   return (
     <>
       <div className="bubbleSortPicture">
+        <NavLink to="/">Back to home page</NavLink>
         <h1 className="shadowText">Bubble sort app</h1>
         <input type="text" onChange={sortHandler} />
         <p className="shadowText">{bubbleSort()}</p>
