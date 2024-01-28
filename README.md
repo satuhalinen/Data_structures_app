@@ -6,6 +6,10 @@ Data structure app is school project done on a course called databases and data 
 
 - React
 
+## Live page link
+
+https://leafy-pegasus-aed1c6.netlify.app
+
 ## Visuals
 
 Home page
